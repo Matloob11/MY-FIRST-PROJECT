@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(/pics/b.png);
+    background-size: cover;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox {
+    margin-top: 10%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 5px solid white;
+    border-radius: 13%;
+}
+
+input {
+    height: 5vh;
+    width: 95%;
+    margin: 2%;
+    background: none;
+    border: 3px solid white;
+}
+
+input::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.chackbox {
+    height: 20%;
+    width: 4%;
+    margin: 0%;
+    margin-left: 0%;
+    margin-left: 3%;
+    cursor: pointer;
+    margin-top: 4%;
+}
+
+.terms {
+    font-size: 75%;
+    color: white;
+    text-align: start;
+}
+
+.button {
+    color: white;
+    height: 2em;
+    width: 79%;
+    margin: 6%;
+    cursor: pointer;
+    border: 3px dotted white;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    border-radius: 50%;
+    background: none;
+    font-weight: bold;
+    font-size: 100%;
+    transition: all 1.5s ease-in-out;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.account {
+    font-size: 1em;
+    margin-bottom: 14%;
+    margin-top: 5%;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border: 3px solid white;
+}
+
+.mynav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.paragroup,
+.para {
+    font-size: 4rem;
+    color: white;
+}
+
+.left-side {
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 41%;
+}
+
+.linkgroup {
+    display: flex;
+    gap: 18%;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    margin: 2%;
+    transition: all 0.5s ease-in-out;
+}
+
+.links:hover {
+    filter: drop-shadow(0 0 22px red);
+    font-weight: bolder;
+    color: red;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 13%;
+}
+
+.btn {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 4%;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    filter: drop-shadow(0 0 22px red);
+    background-color: honeydew;
+    color: red;
+}
+
+main section .flex-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragaraph {
+    margin: 8% 0% 0% 0%;
+    width: 49%;
+    text-align: center;
+}
+
+main section h1 {
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+}
+
+main section .about {
+    margin: 2% 0% 0% 0%;
+}
+
+main section p {
+    text-align: -webkit-center;
+    color: white;
+    font-weight: bold;
+}
+
+main section .pic-right {
+    margin: -8% 0% 0% 6%;
+}
+
+main section img {
+    border-radius: 35%;
+    border: 5px solid white;
+    width: 40%;
+    margin: -24% 0% 0% 71%;
+}
+
+@media (max-width: 480px) {
+    .linkgroup {
+        font-weight: bold;
+        margin: 3%;
+    }
+
+    .paragroup {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 1300px){
+    main section img {
+        margin: 13% 0% 0% 1%;
+        border-radius: 24%;
+    }
+
+    main section .pic-right {
+        margin: -8% 0% 0% 6%;
+    }
+}
+@media (max-width: 950px) {
+    .buton {
+        visibility: hidden;
+    }
+
+    main section img {
+        margin: 13% 0% 0% 1%;
+        border-radius: 24%;
+    }
+
+    main section .pic-right {
+        margin: -8% 0% 0% 6%;
+    }
+
+    .left-side {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 430px) {
+    .para {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 317px) {
+    .linkgroup {
+        flex-wrap: wrap;
+        padding: 0% 30%;
+        text-align: center;
+        line-height: 1.7;
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px white;
+    }
+
+    25% {
+        box-shadow: 0 0 20px yellow;
+    }
+
+    50% {
+        box-shadow: 0 0 30px red;
+    }
+
+    75% {
+        box-shadow: 0 0 30px green;
+    }
+
+    100% {
+        box-shadow: 0 0 10px white;
+    }
+}
